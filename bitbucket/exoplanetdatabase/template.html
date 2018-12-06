@@ -1,0 +1,58 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Exoplanet Database</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <!-- change links to actually go somewhere!!!!! -->
+                <li class="pull-left"><a href="webapp.py"><img src="logo.JPG"></a></li>
+                <li class="pull-left"><a class="text_link" href="webapp.py">Exoplanet Database</a></li>
+                <li class="pull-right"><a class="text_link" href="webapp.py">About the data</a></li>
+                <li class="pull-right"><a class="text_link" href="webapp.py">About us</a></li>
+            </ul>
+        </header>
+        <section>
+            <h1>Search</h1>
+            <form action="webapp.py" method="get">
+                <table border="0">
+                    <tr>
+                        <td><label for="planet_name">Planet Name:</label></td>
+                        <td><input type="text" name="planet_name" id="planet_name"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mass">Mass:</label></td>
+                        <td><input type="text" name="mass" id="mass"></td>
+                        <td>&nbsp;MJup</td>
+                    </tr>
+                    <tr>
+                        <td><label for="radius">Radius:</label></td>
+                        <td><input type="text" name="radius" id="radius"></td>
+                        <td>&nbsp;RJup</td>
+                    </tr>
+                    <tr>
+                        <td><label for="star_name">Star Name:</label></td>
+                        <td><input type="text" name="star_name" id="star_name"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ra">Right Ascension:</label></td>
+                        <td><input type="text" name="ra" id="ra"></td>
+                        <td>&nbsp;hh:mm:ss</td>
+                    </tr>
+                    <tr>
+                        <td><label for="dec">Declination:</label></td>
+                        <td><input type="text" name="dec" id="dec"></td>
+                        <td>&nbsp;hh:mm:ss</td>
+                    </tr>
+                </table>
+                <input type="submit" value="Search" id="submit">
+            </form>
+        </section>
+        <p>%s</p>
+        %s
+    </body>
+</html>

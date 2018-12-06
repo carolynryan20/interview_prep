@@ -1,0 +1,81 @@
+/* Heading css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+li a.text_link{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-right a.text_link {
+    padding-top: 70px;
+}
+
+.pull-left {
+    float: left;
+    font-size: 36px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: #111;
+}
+
+img {
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Main section css*/
+h1 {
+    font-size: 30px;
+    margin-left: 14px;
+}
+
+section {
+    background-color: #333;
+    color: white;
+    width: 40%;
+    margin: auto;
+    padding: 14px 16px;
+    margin-top: 100px;
+}
+
+table {
+    margin: auto;   
+}
+
+tr {
+    height: 30px;
+    color: white;
+}
+
+label {
+    padding: 14px 16px;
+}
+
+#submit {
+    margin-top: 10px;
+    margin-left: 80%;
+    cursor: pointer;
+}
